@@ -1,0 +1,18 @@
+body {
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#T1 {
+    color: black;
+    background-color: white;
+    text-align: center;
+}
+h1#T2 {
+    color: blueviolet;
+    background-color: yellow; 
+    text-align: center;
+}
+h2 {
+    color: red;
+    text-align: justifyk;
+}

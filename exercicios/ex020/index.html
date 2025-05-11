@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            background-color: grey;
+            display: inline-block;
+            text-align: center;
+            border: 1px solid white;
+            width: 200px;
+            height: 50px;
+        }
+        #d1 {
+            background-color: blue;
+        }
+        #d2 > p {
+            display: none;
+        }
+        #d1:hover {
+            background-color: white;
+        }
+        #d2:hover > p {
+            display: block;
+        }
+        #d2:hover {
+            height: 200px;
+        }
+
+        p::after {
+            content: 'SEXO';
+        }
+
+    </style>
+</head>
+<body>
+    <div id="d1">1</div>
+    <div id="d2">2
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quos quasi laboriosam culpa, qui cupiditate voluptas modi. Minima, amet, praesentium aperiam rem nobis reiciendis dolorum facere, atque soluta molestias modi.</p>
+    </div>
+    <div id="d3">3</div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae voluptates, optio eveniet porro dolorum voluptate ad atque asperiores ut totam incidunt laborum ex necessitatibus dolorem officiis quos, exercitationem odit! Fuga!</p>
+</body>
+</html>
