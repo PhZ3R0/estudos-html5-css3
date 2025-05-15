@@ -65,7 +65,6 @@ section.imagem > p {
     backdrop-filter: blur(15px);
     background-color: rgba(0, 0, 0, 0.521);
     text-shadow: 0.5px 0.5px 0px black;
-    shado
 }
 section p {
     font-family: 'Sriracha';
