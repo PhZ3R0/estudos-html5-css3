@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Grande</title>
+    <style>
+        body {
+            font-family:  Helvetica, sans-serif;
+        }
+        td,th {
+            border: 1px solid black;
+            padding: 5px;
+        }
+        table {
+            border-collapse: collapse;
+        }
+        thead, tfoot {
+            background-color: lightgray;
+            
+        }
+        thead  th#thisshithere {
+            width: 200px;
+            border: none;
+        }
+
+        #thisother::before {
+            content: "";
+            padding: 0 2em;
+            display: table-cell;
+            text-align: right;
+    
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de Tabelas Grandes</h1>
+    <!-- anatomia para tabelas grandes
+        TABLE
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT 
+                TR, TD, TH
+    -->
+    <table>
+        <thead>
+            <tr id="thisother">
+                <th rowspan="2" tabindex="0">Unidade Federativa lorem</th>
+                <th colspan="2">População</th>
+                <th colspan="2">Variação (2010-2022)</th>
+                <th>% do total(2024)</th>
+                <th>País Comparável (habitantes)</th>
+            </tr>
+            <tr>
+                <th></th>
+                <td>1</td>
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td>1°</td>
+                <td>São Paulo</td>
+                <td>45.919.049</td>
+            </tr>
+            <tr>
+                <td>2°</td>
+                <td>Minas Gerais</td>
+                <td>21.168.791 </td>
+            </tr>
+            <tr>
+                <td>3°</td>
+                <td>Rio de Janeiro</td>
+                <td>17.264.943</td>
+            </tr>
+            <tr>
+                <td>4°</td>
+                <td></td>
+                <td></td>
+            </tr>
+                        <tr>
+                <td>5°</td>
+                <td></td>
+                <td></td>
+            </tr>
+                        <tr>
+                <td>6°</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>7°</td>
+                <td></td>
+                <td></td>
+            </tr>
+                        <tr>
+                <td>8°</td>
+                <td></td>
+                <td></td>
+            </tr>
+                        <tr>
+                <td>9°</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>10°</td>
+                <td></td>
+                <td></td>
+            </tr>
+                        <tr>
+                <td>11°</td>
+                <td></td>
+                <td></td>
+            </tr>
+                        <tr>
+                <td>12°</td>
+                <td></td>
+                <td></td>
+            </tr>
+                        <tr>
+                <td>13°</td>
+                <td></td>
+                <td></td>
+            </tr>
+                        <tr>
+                <td>14°</td>
+                <td></td>
+                <td></td>
+            </tr>
+                        <tr>
+                <td>15°</td>
+                <td></td>
+                <td></td>
+            </tr>
+                        <tr>
+                <td>16°</td>
+                <td></td>
+                <td></td>
+            </tr>
+                        <tr>
+                <td>17°</td>
+                <td></td>
+                <td></td>
+            </tr>
+                        <tr>
+                <td>18°</td>
+                <td></td>
+                <td></td>
+            </tr>
+                        <tr>
+                <td>19°</td>
+                <td></td>
+                <td></td>
+            </tr>
+                        <tr>
+                <td>20°</td>
+                <td></td>
+                <td></td>
+            </tr>
+                        <tr>
+                <td>21°</td>
+                <td></td>
+                <td></td>
+            </tr>
+                        <tr>
+                <td>22°</td>
+                <td></td>
+                <td></td>
+            </tr>
+                        <tr>
+                <td>23°</td>
+                <td></td>
+                <td></td>
+            </tr>
+                        <tr>
+                <td>24°</td>
+                <td></td>
+                <td></td>
+            </tr>
+                        <tr>
+                <td>25°</td>
+                <td></td>
+                <td></td>
+            </tr>
+                        <tr>
+                <td>26°</td>
+                <td></td>
+                <td></td>
+            </tr>
+                        <tr>
+                <td>27°</td>
+                <td></td>
+                <td></td>
+            </tr>
+            
+
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th>Total de Habitantes</th>
+                <td>0000</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>
