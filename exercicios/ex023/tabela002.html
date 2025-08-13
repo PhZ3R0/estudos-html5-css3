@@ -14,14 +14,31 @@
         }
         table {
             border-collapse: collapse;
+            position:relative;
         }
         thead, tfoot {
             background-color: lightgray;
             
         }
+        thead > tr > th {
+            position:sticky;
+            top:-1px;
+            
+
+        }
         thead  th#thisshithere {
             width: 200px;
             border: none;
+        }
+        tbody > tr:nth-child(2n) {
+            background-color: gray;
+
+
+        }
+        caption {
+            font-size: 1.5em;
+            background-color: lightgray;
+            padding:7px;
         }
 
         /* #thisother::before {
@@ -48,6 +65,7 @@
     -->
     <table>
         <thead>
+            <caption>População das Unidades Federativas</caption>
             <tr id="thisother">
                 <th rowspan="3"></th>
                 <th rowspan="2" tabindex="0">Unidade Federativa</th>
