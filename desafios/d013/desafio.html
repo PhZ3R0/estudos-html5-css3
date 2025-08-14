@@ -10,22 +10,51 @@
 
         }
         table {
-            c
+            border-collapse: collapse;
+            width: 300px;
+            margin: auto;
+        }
+        td {
+            border:1px solid black;
+            text-align: center;
+            padding: 20px;
+            padding-left: 90px;
+            padding-right: 90px;
+
         }
     </style>
 </head>
 <body>
     <table>
-        <tr>1</tr>
-        <tr>2</tr>
-        <tr>3</tr>
-        <tr>4</tr>
-        <tr>5</tr>
-        <tr>6</tr>
-        <tr>7</tr>
-        <tr>8</tr>
-        <tr>9</tr>
-        <tr>10</tr>
+        <tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td rowspan="2">3</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                
+            </tr>
+            <tr>
+                <td colspan="3">8</td>
+                <td>9</td>
+
+            </tr>
+            <tr>
+                <td rowspan="2">10</td>
+                <td colspan="2">11</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+            </tr>
+        </tr>
     </table>
 </body>
 </html>
