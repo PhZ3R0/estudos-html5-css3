@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Select, Datalist e Textarea</h1>
+    <form action="cadastro.php" method="post">
+        <label for="est">Estados</label>
+        <select name="est" id="est">
+            <option value="SP">São Paulo</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="BA">Bahia</option>
+            <option value="">Goiás</option>
+            <option value="">Amazonas</option>
+            <option value="">Santa Catarina</option>
+            <option value="">Rio Grande do Sul</option>
+            <option value="">Mato Grosso</option>
+            <option value="">Pará</option>
+            <option value="">Ceará</option>
+            <option value="">Pernambuco</option>
+            <option value="">Maranhão</option>
+            <option value="">Mato Grosso do Sul</option>
+            <option value="">Tocantins</option>
+            <option value="">Alagoas</option>
+        </select>
+
+        <label for="prof">Profissão: </label>
+        <input type="text" name="prof" id="prof" list="listprof">
+        <datalist id="listprof">
+            <option value="">Padeiro</option>
+        </datalist>
+        <br>
+        <label for="text">Mensagem: </label> <br>
+        <textarea name="" id=""></textarea>
+    </form>
+</body>
+</html>
