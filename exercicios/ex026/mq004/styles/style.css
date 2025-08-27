@@ -1,2 +1,5 @@
 /* mobile first */
 
+body {
+    background: black url(../imagens/back-phone.jpg);
+}
