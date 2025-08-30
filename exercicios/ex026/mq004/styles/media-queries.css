@@ -1,6 +1,29 @@
 /* all media queries */
 
 
-@media screen {
+/* printers */
+@media print {
+
+}
+/* smartphone and portrait tablet  */
+@media screen and (min-width: 768px) and (max-width:992px) {
+    body {
+        background-image: url(../imagens/back-tablet.jpg);
+        
+    }
+    #tablet {
+        display: block;
+    }
+    #phone {
+        display: none;
+    }
+}
+
+/* pc */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+}
+/* tvs or big screens */
+@media screen and (min-width: 1200px) {
     
 }
