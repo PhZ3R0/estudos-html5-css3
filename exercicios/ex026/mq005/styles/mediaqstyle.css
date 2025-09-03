@@ -1,12 +1,37 @@
 @media print {
     
 }
-@media screen and (min-width:768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) {
 
+    span#menuicon {
+        display: none;
+    }
+    menu {
+        display: block;
+    }
+    menu > ul > li {
+        display: inline-block;
+    }
+    menu > ul > li > a {
+        height: 30px;
+        width: 100px;
+        border-radius: 5px;
+    }
 }
-@media screen and (min-width:992px) and (max-widt:1200px) {
+@media screen and (min-width:992px) and (max-width:1200px) {
     
+    span#menuicon {
+        display: none;
+    }
+    main {
+        width: 80vw;
+    }
 }
 @media screen and (min-width:1200px) {
-    
+    span#menuicon {
+        display: none;
+    }
+    main {
+        width:60vw;
+    }
 }
