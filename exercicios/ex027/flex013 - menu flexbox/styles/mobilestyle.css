@@ -1,0 +1,60 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: lightgray;
+}
+#itens {
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    align-items: center;
+    flex: 0 0 30px;
+    
+}
+#itens > #menuP > div {
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    margin: 3px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+#menuP {
+    cursor: pointer;
+    height: 30px;
+}
+menu {
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    background-color: grey;
+    text-align: center;
+    padding-bottom: 10px;
+    align
+}
+header > h1 {
+    color: white;
+    text-shadow: 1px 1px black;
+}
+header > menu > ul {
+    list-style-type: none;
+    display: none;
+}
+header > menu > ul > li {
+    background-color: black;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+main {
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+    margin: 10px;
+}
