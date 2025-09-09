@@ -22,6 +22,9 @@ body {
     border-radius: 2px;
     cursor: pointer;
 }
+#itens > ul > li {
+    width: 100px;
+}
 #menuP {
     cursor: pointer;
     height: 30px;
