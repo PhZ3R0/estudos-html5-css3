@@ -1,0 +1,5 @@
+@media screen and (min-width:768px) {
+    #itens > ul > li {
+        display: inline-block;
+    }
+}

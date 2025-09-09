@@ -23,8 +23,17 @@ body {
     cursor: pointer;
 }
 #itens > ul > li {
-    width: 100px;
+    width: 300px;
+    transition: .3s;
+    cursor: pointer;
 }
+#itens > ul > li:hover {
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+
+
 #menuP {
     cursor: pointer;
     height: 30px;
@@ -38,7 +47,7 @@ header {
     background-color: grey;
     text-align: center;
     padding-bottom: 10px;
-    align
+    
 }
 header > h1 {
     color: white;
