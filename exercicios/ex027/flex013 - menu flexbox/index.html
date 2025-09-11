@@ -5,27 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles/mobilestyle.css">
-    <link rel="stylesheet" href="styles/mediaquerystyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
 </head>
 <body>
     <header>
         <h1>Meu Site</h1>
-            <menu id="itens" onclick="menu()">
-                <div id="menuP">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-        
-                <ul id="opt">
-                    <li>Opção 1</li>
-                    <li>Opção 2</li>
-                    <li>Opção 3</li>
-                    <li>Opção 4</li>
-                    <li>Opção 5</li>
-                    <li>Opção 6</li>
-                </ul>
-            </menu>
+        <span id="icon" class="material-symbols-outlined" onclick="clickMenuIcon()">menu</span>
+        <nav id="navbar">
+            <a href="">Opção 1</a>
+            <a href="">Opção 2</a>
+            <a href="">Opção 3</a>
+            <a href="">Opção 4</a>
+            <a href="">Opção 5</a>
+            <a href="">Opção 6</a>
+        </nav>
     </header>
     <main>
         <h2>Teste de Flexbox</h2>
@@ -33,13 +27,15 @@
     </main>
 
     <script>
-function menu() {
-    if (opt.style.display == "block") {
-        opt.style.display = "none"
-    } else {
-        opt.style.display = "block"
-    }
-}
+    function clickMenuIcon() {
+            if (navbar.style.display == 'none') {
+                navbar.style.display = 'flex'
+            }   else {
+                navbar.style.display = 'none'
+            }
+        }
+
+
     </script>
 </body>
 </html>
