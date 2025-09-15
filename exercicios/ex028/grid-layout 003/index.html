@@ -8,10 +8,13 @@
         div.conteiner {
             display: grid;
             
-            gap: 20px;
-            grid-template: repeat(3, 100px) / repeat(3, auto);
-            place-items: start center;
-            place-content: space-between end;
+            gap: 10px;
+            grid-template: repeat(3,80px) / repeat(3, 1fr);
+            grid-auto-rows: 80px;
+            grid-auto-columns: 120px;
+            grid-auto-flow: column;
+            place-items: normal normal;
+            place-content: normal normal;
             
             border: 3px solid blue;
             text-align: center;
@@ -34,6 +37,9 @@
         <div class="item">E</div>
         <div class="item">F</div>
         <div class="item">G</div>
+        <div class="item">H</div>
+        <div class="item">I</div>
+        <div class="item">J</div>
     </div>
 
 </body>
