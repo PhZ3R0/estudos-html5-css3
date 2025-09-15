@@ -1,0 +1,68 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: 'Helvetica';
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: grey;
+
+    display: grid;
+    grid-template: 1fr .5fr 4fr .7fr / 1fr 2fr 1fr;   
+}
+.item {
+    background-color: lightgray;
+    display: flex;
+}
+#topo {
+    grid-area: 1 / 1 / span 1 / span 3;
+    background-color: rgb(255, 255, 255);
+
+    justify-content: center;
+    align-items: center;
+
+}
+#menu {
+    grid-area: 2 / 1 / span 1 / span 3;
+    background-color: white;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+
+}
+#menu > a {
+    padding: 20px;
+    margin: 5px 20px ;
+    border-radius: 40px;
+    
+    text-decoration: none;
+    background-color: grey;
+    color: white;
+}
+#menu > a:hover {
+    background-color: black;
+    transition: .4s;
+}
+
+#principal {
+    grid-area: 3 / 1 / span 1 / span 2;
+    background-image: url(c8f5a905d349aebbc29804f76413a6d6.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+#secundario {
+    grid-area: 3 / 3 / span 1 / span 1;
+    background-image: url(7f28c0937334e8aea6c9e287450993c4.jpg);
+    background-size: cover;
+    background-position: center center;
+    border: 1px solid black;
+}
+#rodape {
+    grid-area: 4 / 1/ span 1 / span 3;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
