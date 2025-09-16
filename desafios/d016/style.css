@@ -11,7 +11,7 @@ body {
     background-color: grey;
 
     display: grid;
-    grid-template: 1fr .5fr 4fr .7fr / 1fr 2fr 1fr;   
+    grid-template: 1fr .5fr 4fr .7fr / 2fr .7fr;   
 }
 .item {
     background-color: lightgray;
@@ -48,13 +48,13 @@ body {
 }
 
 #principal {
-    grid-area: 3 / 1 / span 1 / span 2;
+    grid-area: 3 / 1 / span 1 / span 1;
     background-image: url(c8f5a905d349aebbc29804f76413a6d6.jpg);
     background-size: cover;
     background-position: center center;
 }
 #secundario {
-    grid-area: 3 / 3 / span 1 / span 1;
+    grid-area: 3 / 2 / span 1 / span 1;
     background-image: url(7f28c0937334e8aea6c9e287450993c4.jpg);
     background-size: cover;
     background-position: center center;
